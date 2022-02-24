@@ -12,13 +12,22 @@ console.log(person)
 // Arrays
 
 const animals = [
-  'Lion',
-  'Cat',
+  {
+    name: 'Lion',
+    isAnimal: true
+  },
+  {
+    name: 'Cat',
+    isAnimal: true
+  },
   {
     name: 'Dog',
     isAnimal: true
   },
-  'Monkey'
+  {
+    name: 'Monkey',
+    isAnimal: true
+  }, 
 ]
 // Acessando valores de dentro do Array
-console.log(animals[2].isAnimal)
+console.log(animals[3].name)
