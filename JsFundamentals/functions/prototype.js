@@ -25,3 +25,13 @@ let string = "123"
 console.log(Number(string))
 let number = 321
 console.log(String(number))
+
+// Contar quantos caracteres tem uma palavra e quantos
+// digitos tem um Número
+
+let word = "Paralelepipedo"
+console.log(word.length)
+let number = 1234
+console.log(word(number).length)
+
+
