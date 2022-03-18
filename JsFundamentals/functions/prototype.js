@@ -34,4 +34,11 @@ console.log(word.length)
 let number = 1234
 console.log(word(number).length)
 
+// Transformar um número quebrado com 2 casas decimais e 
+// trocar ponto por virgula
+
+let number = 435321897.4433512
+console.log(number.toFixed(2))
+console.log(number.replace(".", ","))
+
 
