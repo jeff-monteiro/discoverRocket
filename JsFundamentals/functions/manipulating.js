@@ -83,6 +83,12 @@ console.log(phrase.includes("play"))
 
 */
 
+// Criar Array com construtor
+
+// let arrayEmpty = new Array(10) // Array com 10 posições vazias
+let myArray = new Array('a', 'b', 'c')
+console.log(myArray[0])
+
 
 
 
