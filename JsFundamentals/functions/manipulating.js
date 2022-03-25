@@ -86,8 +86,22 @@ console.log(phrase.includes("play"))
 // Criar Array com construtor
 
 // let arrayEmpty = new Array(10) // Array com 10 posições vazias
+/*
+
 let myArray = new Array('a', 'b', 'c')
 console.log(myArray[0])
+
+*/
+
+// Contar elementos de um Array
+// É possivel utilizar vários tipos de dados dentro de um Array
+
+/*
+
+let myArray = ['a', {type: 'array'}, function(){ return 'alo Jeff'}]
+console.log(myArray.length)
+
+*/
 
 
 
