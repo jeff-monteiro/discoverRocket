@@ -61,13 +61,27 @@ console.log(wordNew.toLowerCase())
 
 // Manipulando Strings e Arrays
 
-// Separe um texto que contém espaços, em um novo array onde cada texto é uma posição do array.
-// Depois disso, transforme o array em um texto e onde eram espaços, coloque _.
+// Separe um texto que contém espaços, em um novo array onde cada texto é uma posição do array 
+// depois disso, transforme o array em um texto e onde eram espaços, coloque _ .
+
+/*
 
 let phrase = "Programar é top demais"
 let myArray = phrase.split(" ")
 let phraseWithUnderscore = myArray.join("_")
+console.log(phrase)
 console.log(phraseWithUnderscore)
+
+*/
+
+// Verificar se o texto contém a palavra buscada
+
+/*
+
+let phrase = "I like to play soccer with my friends every single weekend"
+console.log(phrase.includes("play"))
+
+*/
 
 
 
