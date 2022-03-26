@@ -103,6 +103,15 @@ console.log(myArray.length)
 
 */
 
+// Transformar uma cadeia de caracteres em elementos de um array
+
+/*
+
+let myArray = "manipulação"
+console.log(Array.from(myArray))
+
+*/
+
 
 
 
