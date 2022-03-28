@@ -16,3 +16,7 @@ x *= 2
 
 // division assignment
 x /= 2
+
+// remainder, exponetiation
+x %= 2
+x *= 2
