@@ -1,0 +1,22 @@
+calculate = (number1, operator, number2) => {
+  let result = 0
+
+  switch (operator) {
+    case '+':
+      result = number1 + number2
+      break
+    case '-':
+      result = number1 - number2
+      break
+     case '*':
+       result = number1 * number2
+       break
+     case '/':
+       result = number1 / number2
+       break
+     default:
+       console.log("You didn't execute any  operation! Select one")       
+  }
+  return result
+}
+console.log(calculate(4, '*', 5))
