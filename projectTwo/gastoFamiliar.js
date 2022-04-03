@@ -13,7 +13,7 @@ saldo positivo ou negativo, seguido do valor do saldo
 
 let totalFamily = {
   receitas: [ 1000.00, 1700.00, 60.45 ],
-  despesas: [ 101.90, 89.10, 100.00 ]
+  despesas: [ 101.90, 89.10, 100.00, 3000.10 ]
 }
 function sum(array){
   let total = 0
@@ -21,7 +21,6 @@ function sum(array){
   for(let value of array){
     total += value
   }
-
   return total
 }
 function calculateBalance(){
@@ -30,7 +29,14 @@ function calculateBalance(){
 
   const total = calculateReceitas - calculateDespesas
 
-  if( total >= 0){
-    
+  const itsOk = total >= 0
+
+  let balanceText = 'Negativo'
+
+  if(itsOk){
+    balanceText = 'Positivo'
   }
+  console.log(`Seu saldo é ${balanceText}: ${total.toFixed(2)}`)
 }
+
+calculateBalance()
